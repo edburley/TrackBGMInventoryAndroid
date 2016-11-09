@@ -11,7 +11,31 @@
     tools:context="com.bgmengineering.trackbgminventoryandroid.MainActivity">
 
     <TextView
+        android:text="@string/text_scan_field"
+        android:gravity="center"
+        android:background="@drawable/backgroundborder"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="@dimen/scan_field_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textViewFirst"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/text_scan_field"
+        android:gravity="center"
+        android:background="@drawable/backgroundborder"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/scan_field_height"
+        android:id="@+id/textViewSecond"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginTop="116dp"
+        android:layout_below="@+id/textViewFirst"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>

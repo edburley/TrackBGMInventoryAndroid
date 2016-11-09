@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TrackBGMInventoryAndroid</string>
+    <string name="text_empty">List Empty</string>
+    <string name="text_not_empty">List Not Empty</string>
+    <string name="text_scan_field">Scan Inventory Number, Kit, or Location</string>
+    <string name="text_kit_scanned">Scan Inventory Number or Location</string>
+    <string name="text_inv_scanned">Scan Kit or Location</string>
+    <string name="text_loc_scanned">Scan Inventory Number or Kit</string>
 </resources>
